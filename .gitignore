@@ -1,0 +1,5 @@
+#   
+jdk-17.0.12/
+
+# Ignorar archivos compilados del proyecto
+proyecto/bin/
