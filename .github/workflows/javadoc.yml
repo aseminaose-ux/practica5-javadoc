@@ -31,7 +31,7 @@ jobs:
       - name: Generar Javadoc
         run: |
           mkdir -p doc-output
-          javadoc -d doc-output -sourcepath proyecto/src -subpackages .
+          javadoc -d doc-output proyecto/src/App.java
 
       - name: Empaquetar artefacto para GitHub Pages
         uses: actions/upload-pages-artifact@v3
